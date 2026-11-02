@@ -1,0 +1,24 @@
+.grelha {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.grelha figure {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grelha img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.grelha img:hover {
+    opacity: 0.85;
+}
+
